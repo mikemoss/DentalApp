@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27DFEDB91347E4A4001723ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DFEDB81347E4A4001723ED /* UIKit.framework */; };
+		27DFEDBB1347E4A4001723ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DFEDBA1347E4A4001723ED /* Foundation.framework */; };
+		27DFEDBD1347E4A4001723ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DFEDBC1347E4A4001723ED /* CoreGraphics.framework */; };
+		27DFEDBF1347E4A4001723ED /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DFEDBE1347E4A4001723ED /* CoreData.framework */; };
+		27DFEDC51347E4A4001723ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27DFEDC31347E4A4001723ED /* InfoPlist.strings */; };
+		27DFEDC81347E4A4001723ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DFEDC71347E4A4001723ED /* main.m */; };
+		27DFEDCB1347E4A4001723ED /* DentalAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DFEDCA1347E4A4001723ED /* DentalAppAppDelegate.m */; };
+		27DFEDCE1347E4A4001723ED /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27DFEDCC1347E4A4001723ED /* MainWindow.xib */; };
+		27DFEDD11347E4A4001723ED /* DentalApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27DFEDCF1347E4A4001723ED /* DentalApp.xcdatamodeld */; };
+		27DFEDD81347E4A4001723ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DFEDB81347E4A4001723ED /* UIKit.framework */; };
+		27DFEDD91347E4A4001723ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DFEDBA1347E4A4001723ED /* Foundation.framework */; };
+		27DFEDDA1347E4A4001723ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DFEDBC1347E4A4001723ED /* CoreGraphics.framework */; };
+		27DFEDDB1347E4A4001723ED /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DFEDBE1347E4A4001723ED /* CoreData.framework */; };
+		27DFEDE31347E4A4001723ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27DFEDE11347E4A4001723ED /* InfoPlist.strings */; };
+		27DFEDE61347E4A4001723ED /* DentalAppTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 27DFEDE51347E4A4001723ED /* DentalAppTests.h */; };
+		27DFEDE81347E4A4001723ED /* DentalAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DFEDE71347E4A4001723ED /* DentalAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27DFEDDC1347E4A4001723ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27DFEDAB1347E4A4001723ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27DFEDB31347E4A4001723ED;
+			remoteInfo = DentalApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27DFEDB41347E4A4001723ED /* DentalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DentalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27DFEDB81347E4A4001723ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27DFEDBA1347E4A4001723ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27DFEDBC1347E4A4001723ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27DFEDBE1347E4A4001723ED /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		27DFEDC21347E4A4001723ED /* DentalApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DentalApp-Info.plist"; sourceTree = "<group>"; };
+		27DFEDC41347E4A4001723ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27DFEDC61347E4A4001723ED /* DentalApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DentalApp-Prefix.pch"; sourceTree = "<group>"; };
+		27DFEDC71347E4A4001723ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27DFEDC91347E4A4001723ED /* DentalAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DentalAppAppDelegate.h; sourceTree = "<group>"; };
+		27DFEDCA1347E4A4001723ED /* DentalAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DentalAppAppDelegate.m; sourceTree = "<group>"; };
+		27DFEDCD1347E4A4001723ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		27DFEDD01347E4A4001723ED /* DentalApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DentalApp.xcdatamodel; sourceTree = "<group>"; };
+		27DFEDD71347E4A4001723ED /* DentalAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DentalAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27DFEDE01347E4A4001723ED /* DentalAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DentalAppTests-Info.plist"; sourceTree = "<group>"; };
+		27DFEDE21347E4A4001723ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27DFEDE41347E4A4001723ED /* DentalAppTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DentalAppTests-Prefix.pch"; sourceTree = "<group>"; };
+		27DFEDE51347E4A4001723ED /* DentalAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DentalAppTests.h; sourceTree = "<group>"; };
+		27DFEDE71347E4A4001723ED /* DentalAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DentalAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27DFEDB11347E4A4001723ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DFEDB91347E4A4001723ED /* UIKit.framework in Frameworks */,
+				27DFEDBB1347E4A4001723ED /* Foundation.framework in Frameworks */,
+				27DFEDBD1347E4A4001723ED /* CoreGraphics.framework in Frameworks */,
+				27DFEDBF1347E4A4001723ED /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27DFEDD31347E4A4001723ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DFEDD81347E4A4001723ED /* UIKit.framework in Frameworks */,
+				27DFEDD91347E4A4001723ED /* Foundation.framework in Frameworks */,
+				27DFEDDA1347E4A4001723ED /* CoreGraphics.framework in Frameworks */,
+				27DFEDDB1347E4A4001723ED /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27DFEDA91347E4A4001723ED = {
+			isa = PBXGroup;
+			children = (
+				27DFEDC01347E4A4001723ED /* DentalApp */,
+				27DFEDDE1347E4A4001723ED /* DentalAppTests */,
+				27DFEDB71347E4A4001723ED /* Frameworks */,
+				27DFEDB51347E4A4001723ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27DFEDB51347E4A4001723ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27DFEDB41347E4A4001723ED /* DentalApp.app */,
+				27DFEDD71347E4A4001723ED /* DentalAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27DFEDB71347E4A4001723ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27DFEDB81347E4A4001723ED /* UIKit.framework */,
+				27DFEDBA1347E4A4001723ED /* Foundation.framework */,
+				27DFEDBC1347E4A4001723ED /* CoreGraphics.framework */,
+				27DFEDBE1347E4A4001723ED /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27DFEDC01347E4A4001723ED /* DentalApp */ = {
+			isa = PBXGroup;
+			children = (
+				27DFEDC91347E4A4001723ED /* DentalAppAppDelegate.h */,
+				27DFEDCA1347E4A4001723ED /* DentalAppAppDelegate.m */,
+				27DFEDCC1347E4A4001723ED /* MainWindow.xib */,
+				27DFEDCF1347E4A4001723ED /* DentalApp.xcdatamodeld */,
+				27DFEDC11347E4A4001723ED /* Supporting Files */,
+			);
+			path = DentalApp;
+			sourceTree = "<group>";
+		};
+		27DFEDC11347E4A4001723ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27DFEDC21347E4A4001723ED /* DentalApp-Info.plist */,
+				27DFEDC31347E4A4001723ED /* InfoPlist.strings */,
+				27DFEDC61347E4A4001723ED /* DentalApp-Prefix.pch */,
+				27DFEDC71347E4A4001723ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27DFEDDE1347E4A4001723ED /* DentalAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				27DFEDE51347E4A4001723ED /* DentalAppTests.h */,
+				27DFEDE71347E4A4001723ED /* DentalAppTests.m */,
+				27DFEDDF1347E4A4001723ED /* Supporting Files */,
+			);
+			path = DentalAppTests;
+			sourceTree = "<group>";
+		};
+		27DFEDDF1347E4A4001723ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27DFEDE01347E4A4001723ED /* DentalAppTests-Info.plist */,
+				27DFEDE11347E4A4001723ED /* InfoPlist.strings */,
+				27DFEDE41347E4A4001723ED /* DentalAppTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27DFEDB31347E4A4001723ED /* DentalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27DFEDEB1347E4A4001723ED /* Build configuration list for PBXNativeTarget "DentalApp" */;
+			buildPhases = (
+				27DFEDB01347E4A4001723ED /* Sources */,
+				27DFEDB11347E4A4001723ED /* Frameworks */,
+				27DFEDB21347E4A4001723ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DentalApp;
+			productName = DentalApp;
+			productReference = 27DFEDB41347E4A4001723ED /* DentalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27DFEDD61347E4A4001723ED /* DentalAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27DFEDEE1347E4A4001723ED /* Build configuration list for PBXNativeTarget "DentalAppTests" */;
+			buildPhases = (
+				27DFEDD21347E4A4001723ED /* Sources */,
+				27DFEDD31347E4A4001723ED /* Frameworks */,
+				27DFEDD41347E4A4001723ED /* Resources */,
+				27DFEDD51347E4A4001723ED /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27DFEDDD1347E4A4001723ED /* PBXTargetDependency */,
+			);
+			name = DentalAppTests;
+			productName = DentalAppTests;
+			productReference = 27DFEDD71347E4A4001723ED /* DentalAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27DFEDAB1347E4A4001723ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Utah State University";
+			};
+			buildConfigurationList = 27DFEDAE1347E4A4001723ED /* Build configuration list for PBXProject "DentalApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27DFEDA91347E4A4001723ED;
+			productRefGroup = 27DFEDB51347E4A4001723ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27DFEDB31347E4A4001723ED /* DentalApp */,
+				27DFEDD61347E4A4001723ED /* DentalAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27DFEDB21347E4A4001723ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DFEDC51347E4A4001723ED /* InfoPlist.strings in Resources */,
+				27DFEDCE1347E4A4001723ED /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27DFEDD41347E4A4001723ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DFEDE31347E4A4001723ED /* InfoPlist.strings in Resources */,
+				27DFEDE61347E4A4001723ED /* DentalAppTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27DFEDD51347E4A4001723ED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27DFEDB01347E4A4001723ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DFEDC81347E4A4001723ED /* main.m in Sources */,
+				27DFEDCB1347E4A4001723ED /* DentalAppAppDelegate.m in Sources */,
+				27DFEDD11347E4A4001723ED /* DentalApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27DFEDD21347E4A4001723ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DFEDE81347E4A4001723ED /* DentalAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27DFEDDD1347E4A4001723ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27DFEDB31347E4A4001723ED /* DentalApp */;
+			targetProxy = 27DFEDDC1347E4A4001723ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27DFEDC31347E4A4001723ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27DFEDC41347E4A4001723ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27DFEDCC1347E4A4001723ED /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27DFEDCD1347E4A4001723ED /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		27DFEDE11347E4A4001723ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27DFEDE21347E4A4001723ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27DFEDE91347E4A4001723ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		27DFEDEA1347E4A4001723ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		27DFEDEC1347E4A4001723ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DentalApp/DentalApp-Prefix.pch";
+				INFOPLIST_FILE = "DentalApp/DentalApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27DFEDED1347E4A4001723ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DentalApp/DentalApp-Prefix.pch";
+				INFOPLIST_FILE = "DentalApp/DentalApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		27DFEDEF1347E4A4001723ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DentalApp.app/DentalApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DentalAppTests/DentalAppTests-Prefix.pch";
+				INFOPLIST_FILE = "DentalAppTests/DentalAppTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		27DFEDF01347E4A4001723ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DentalApp.app/DentalApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DentalAppTests/DentalAppTests-Prefix.pch";
+				INFOPLIST_FILE = "DentalAppTests/DentalAppTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27DFEDAE1347E4A4001723ED /* Build configuration list for PBXProject "DentalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DFEDE91347E4A4001723ED /* Debug */,
+				27DFEDEA1347E4A4001723ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27DFEDEB1347E4A4001723ED /* Build configuration list for PBXNativeTarget "DentalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DFEDEC1347E4A4001723ED /* Debug */,
+				27DFEDED1347E4A4001723ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27DFEDEE1347E4A4001723ED /* Build configuration list for PBXNativeTarget "DentalAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DFEDEF1347E4A4001723ED /* Debug */,
+				27DFEDF01347E4A4001723ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		27DFEDCF1347E4A4001723ED /* DentalApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27DFEDD01347E4A4001723ED /* DentalApp.xcdatamodel */,
+			);
+			currentVersion = 27DFEDD01347E4A4001723ED /* DentalApp.xcdatamodel */;
+			path = DentalApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 27DFEDAB1347E4A4001723ED /* Project object */;
+}
