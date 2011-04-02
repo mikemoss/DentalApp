@@ -23,6 +23,7 @@
 		27DFEDE31347E4A4001723ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27DFEDE11347E4A4001723ED /* InfoPlist.strings */; };
 		27DFEDE61347E4A4001723ED /* DentalAppTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 27DFEDE51347E4A4001723ED /* DentalAppTests.h */; };
 		27DFEDE81347E4A4001723ED /* DentalAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DFEDE71347E4A4001723ED /* DentalAppTests.m */; };
+		27FC65121347EFB2009062A3 /* TestBranch in Resources */ = {isa = PBXBuildFile; fileRef = 27FC65111347EFB2009062A3 /* TestBranch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		27DFEDE41347E4A4001723ED /* DentalAppTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DentalAppTests-Prefix.pch"; sourceTree = "<group>"; };
 		27DFEDE51347E4A4001723ED /* DentalAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DentalAppTests.h; sourceTree = "<group>"; };
 		27DFEDE71347E4A4001723ED /* DentalAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DentalAppTests.m; sourceTree = "<group>"; };
+		27FC65111347EFB2009062A3 /* TestBranch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestBranch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		27DFEDA91347E4A4001723ED = {
 			isa = PBXGroup;
 			children = (
+				27FC65111347EFB2009062A3 /* TestBranch */,
 				27DFEDC01347E4A4001723ED /* DentalApp */,
 				27DFEDDE1347E4A4001723ED /* DentalAppTests */,
 				27DFEDB71347E4A4001723ED /* Frameworks */,
@@ -228,6 +231,7 @@
 			files = (
 				27DFEDC51347E4A4001723ED /* InfoPlist.strings in Resources */,
 				27DFEDCE1347E4A4001723ED /* MainWindow.xib in Resources */,
+				27FC65121347EFB2009062A3 /* TestBranch in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
